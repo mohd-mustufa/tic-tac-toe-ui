@@ -152,3 +152,29 @@ h1 {
 .winning-message.show {
 	display: flex;
 }
+
+@media all and (width <= 350px) {
+	body {
+		--box-size: 80px;
+		--mark-size: calc(var(--box-size) * 0.8);
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.winning-message {
+		font-size: 3.5rem;
+	}
+
+	.winning-message button {
+		margin: 1.25rem;
+		padding: 0.75rem 1.75rem;
+	}
+}
+
+@media all and (height <= 1000px) {
+	.board {
+		height: 70vh;
+	}
+}
