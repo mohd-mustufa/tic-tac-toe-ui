@@ -12,10 +12,12 @@ body {
 
 h1 {
 	text-align: center;
+	margin-top: 2rem;
+	font-size: 3rem;
 }
 
 .board {
-	height: 90vh;
+	height: 80vh;
 	width: 100vw;
 	display: grid;
 	grid-template-columns: repeat(3, auto);
@@ -129,7 +131,7 @@ h1 {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.9);
 	color: white;
-	font-size: 5rem;
+	font-size: 4rem;
 }
 
 .winning-message button {
