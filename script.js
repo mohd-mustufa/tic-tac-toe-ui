@@ -49,7 +49,7 @@ function handleEvent(e) {
 	placeMark(box, currentClass);
 
 	if (checkWin(currentClass)) {
-		winningMessageText.innerText = `${xTurn ? "X's" : "O's"} Wins!`;
+		winningMessageText.innerText = `${xTurn ? "X" : "O"} Wins!`;
 		winningMessage.classList.add("show");
 	} else if (checkDraw()) {
 		winningMessageText.innerText = "Draw!";
